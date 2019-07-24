@@ -9,6 +9,8 @@ def not_found(error):
 
 
 from app.home.controllers import mod_home as home
+from app.auth.controllers import mod_auth as auth
 
 app.register_blueprint(home)
+app.register_blueprint(auth)
 
